@@ -11,9 +11,16 @@ img {
     border-radius: 4px;
 }
 
+.container-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    min-width: 600px;
+
+}
+
 .container {
     display: flex;
-
     justify-content: space-between;
     width: 100%;
     height: fit-content;
