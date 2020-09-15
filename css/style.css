@@ -11,7 +11,11 @@ img {
     border-radius: 4px;
 }
 
-.container-info{
+.img {
+    margin-top: 10px;
+}
+
+.container-info {
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -25,7 +29,7 @@ img {
     width: 100%;
     height: fit-content;
     background-color: black;
-    background-image: linear-gradient(to right, black, pink);
+    background-image: linear-gradient(to right, black, rosybrown);
 }
 
 .container-cards {
@@ -41,13 +45,32 @@ img {
     width: 300px;
     height: 300px;
     border-radius: 4px;
-    background-color: white;
+    /*background-color: gray;*/
+    background-color: rosybrown;
+    /*background-image: linear-gradient(white, gray);*/
+
     margin-top: 20px;
     margin-right: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card-two{
+.card-style-two {
+    background-image: linear-gradient(to right, rgba(100, 77, 77), rgba(137, 104, 104));
+
+}
+
+.card-style-one {
+    background-image: linear-gradient(to right, rgba(75, 57, 47), rgba(100, 77, 77));
+}
+
+.card-img {
+    width: 290px;
+    /*height: 200px;*/
+    align-content: center;
+    margin: auto;
+}
+
+.card-two {
     margin-bottom: 20px;
 }
 
@@ -60,7 +83,7 @@ button {
     display: inline-block;
     border-radius: 4px;
     background-color: white;
-    border: solid 2px black;
+    border: solid 2px #8B6B6B;
     color: black;
     text-align: center;
     /*font-size: 28px;*/
@@ -78,6 +101,10 @@ button span {
     transition: 0.5s;
 }
 
+button:hover{
+    background-color: #8B6B6B;
+    color: white;
+}
 button span:after {
     content: '\00bb';
     position: absolute;
