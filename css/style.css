@@ -23,13 +23,20 @@ img {
 
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
+.main {
     width: 100%;
     height: fit-content;
     background-color: black;
     background-image: linear-gradient(to right, black, rosybrown);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.qwe{
+    background-color: #B98E8E;
 }
 
 .container-cards {
@@ -83,7 +90,7 @@ button {
     display: inline-block;
     border-radius: 4px;
     background-color: white;
-    border: solid 2px #8B6B6B;
+    border: solid 2px #B98E8E;
     color: black;
     text-align: center;
     /*font-size: 28px;*/
@@ -101,10 +108,11 @@ button span {
     transition: 0.5s;
 }
 
-button:hover{
-    background-color: #8B6B6B;
-    color: white;
+button:hover {
+    background-color: #B98E8E;
+    color: black;
 }
+
 button span:after {
     content: '\00bb';
     position: absolute;
