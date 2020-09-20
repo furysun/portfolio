@@ -1,10 +1,22 @@
 .bloc-animation {
-    width: 400px;
-    height: 400px;
     animation-name: spin;
     animation-duration: 10000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+}
+
+.bloc-animation-one {
+    animation-name: spin;
+    animation-duration: 20000ms;
+    animation-iteration-count: infinite;
+    transform-origin: top left;
+
+    animation-timing-function: linear;
+}
+
+.bloc-animation-size{
+    width: 500px;
+    height: 500px;
 }
 
 @keyframes spin {
